@@ -1,0 +1,38 @@
+{
+  "name": "bc",
+  "version": "0.0.0",
+  "description": "bc",
+  "subdomain": "",
+  "domains": [
+    "www.bc.co.uk"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/docpad/bin/docpad-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitolite:bc"
+  },
+  "author": "",
+  "license": "BSD",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "docpad": "^6.78.1",
+    "docpad-plugin-stylus": "^2.9.0",
+    "docpad-plugin-eco": "^2.1.0",
+    "docpad-plugin-coffeescript": "^2.5.0",
+    "docpad-plugin-partials": "^2.9.2",
+    "underscore": "~1.3.3",
+    "express": "~2.5.9",
+    "socket.io": "~0.9.6",
+    "mustache": "~0.4.0"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "^2.6.1"
+  },
+  "main": "node_modules/docpad/bin/docpad-server"
+}

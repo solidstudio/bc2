@@ -1,0 +1,68 @@
+---
+layout: 'default'
+title: 'Welcome to'
+---
+<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<!-- Inro -->
+				<section>
+					<%- @partial('intro.html') %>
+				</section>
+
+				<!-- Loving Success - Accomplishing great things -->
+				<section>
+					<%- @partial('lc-accomplishing-great-things.html') %>
+				</section>
+
+				<!-- Loving Success - Delighting customers -->
+				<section>
+					<%- @partial('lc-delighting-customers.html') %>
+				</section>
+
+				<!-- Thinking Ahead - Changing and innovating -->
+				<section>
+					<%- @partial('ta-changing-and-innovating.html') %>
+				</section>
+
+				<!-- Thinking Ahead - Planning and awareness of strategy -->
+				<section>
+					<%- @partial('ta-planning-and-awareness-of-strategy.html') %>
+				</section>
+
+				<!-- Thinking Ahead - Analysing and using information -->
+				<section>
+					<%- @partial('ta-analysing-and-using-information.html') %>
+				</section>
+
+				<!-- Taking Ownership - Leading and developing others -->
+				<section>
+					<%- @partial('to-leading-and-developing-others.html') %>
+				</section>
+
+				<!-- Taking Ownership - Making decisions -->
+				<section>
+					<%- @partial('to-making-decisions.html') %>
+				</section>
+
+				<!-- Taking Ownership - Delivering winning results -->
+				<section>
+					<%- @partial('to-delivering-winning-results.html') %>
+				</section>
+
+				<!-- Working Together - Working with others -->
+				<section>
+					<%- @partial('wt-working-with-others.html') %>
+				</section>
+
+				<!-- Working Together - Getting the message across -->
+				<section>
+					<%- @partial('wt-getting-the-message-across.html') %>
+				</section>
+				
+			</div>
+
+		</div>
+
