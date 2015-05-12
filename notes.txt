@@ -11,6 +11,6 @@ prototyping, show tells, town halls - managing stakeholders - promoting team - g
 testing, defining approach to improve proccess - helping other teams, unit, end to end, training / educating ba, business, dev and test teams
 managing teams personalities, working style and strengths, environment, building a team, interview, resourcing, extending, letting go, training
 overall api arhcitecture and implementation of client
-devops, deployments and release plans that align across teams, versions tags, branches
+devops, vm, docs, prototypes, code sharing, deployments and release plans that align across teams, versions tags, branches
 intranet - sharepoint - mike / darren testimonial
 bpay - as2 - code / architecture sharing, stack, obi, actively sharing
